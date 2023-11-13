@@ -9,8 +9,7 @@
 %     'Hangi yöntemin en iyi sonuçları ürettiğini belirlemek için sonuçları karşılaştırın.]]
 % 
 % 
-%  Roberts_x ve Roberts_y diğerlerine göre köşe algılamada daha iyi bir
-%  performans gösterdi.
+
 
 A=[ 201, 195, 203, 203, 199, 200, 204, 190, 198, 203;
     201, 204, 209, 197, 210, 202, 205, 195, 202, 199;
@@ -64,9 +63,7 @@ imshow(A,[]),title('orjinal');
 % tüm olası parametrelerle kullanın. Hangi yöntemin 
 % en iyi sonuçları ürettiğini belirleyin?
 % 
-% %% en iyi sonuç yorumu
-% zerocross canny log canny_old ve log metotları köşe algılayabildi bunlar
-% içinde en iyi performans gösteren canny ve canny_old metotları
+
 % 
 % A=[ 201, 195, 203, 203, 199, 200, 204, 190, 198, 203;
 %     201, 204, 209, 197, 210, 202, 205, 195, 202, 199;
@@ -156,9 +153,7 @@ imshow(A,[]),title('orjinal');
 % Soru 4: 
 % Yukarıdaki alıştırmayı tekrarlayın, ancak tire.tif adlı görüntüyü kullanın.
 % 
-% zerocross  ve Marr-hildreth diğerlerine göre kenar bulma
-% konusunda diğer yöntemlere göre daha iyi sonuç verdi.
-% 
+
 % 
 % A = imread('tire.tif');
 % B = edge(A,'Prewitt');
@@ -244,10 +239,7 @@ imshow(A,[]),title('orjinal');
 % (b) Gürültü varlığında en kötü sonuçları veren teknik hangisidir?
 % 
 % 
-% A = en iyi sonuç veren papper&salt için ???????
-% B = en kötü sonuç veren approxcanny metodu her iki gürültülü efektede
-% köşe algılayamadı. Diğer metotlar roberts ve prewitt  gauss gürültü
-% efektine göre kötü bir performans gösterdi
+
 % 
 % A = imread('pout.tif');
 % A1 = imnoise(A,'salt & pepper',0.1);
